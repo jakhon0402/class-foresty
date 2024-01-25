@@ -74,7 +74,7 @@ const SDashboard = () => {
               <Route path='/rooms' element={<RoomsPage />} />
               <Route path='/subjects' element={<SubjectsPage />} />
               <Route path='/courses' element={<CoursesPage />} />
-              <Route path='/' element={<Navigate to='/t/groups' replace />} />
+              <Route path='/' element={<Navigate to='/s/groups' replace />} />
             </Routes>
           </div>
         </div>
